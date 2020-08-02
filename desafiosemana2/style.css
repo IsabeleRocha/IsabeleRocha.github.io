@@ -1,0 +1,170 @@
+html,body{
+    margin: 0;
+    font-family:'Rowdies', cursive;
+}
+
+header{
+    background-color: #8ABABF;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#menu{
+    float: right;
+    margin-right: 0,5%;
+    margin-top: 0%;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+li{
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover{
+    background-color: #0D688C;
+}
+
+#logo{
+    width: 50px;
+    height: 5opx;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#caixa{
+    background: url(img/fundo2.jpg);
+    background-size: 1350px;
+    height: 617px;
+    text-align: center;    
+}
+
+#titulo{
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: black;
+    padding-top: 20%;
+    font-size: 50px;
+    line-height: 0.6;    
+}
+
+#subtitulo{
+    color: black;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: -1px;
+    border-top: 3px black solid;
+}
+
+#acao{ 
+    color: black;
+    background-color:#8ABABF ;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+section{
+    padding: 20px;
+    float: left;
+}
+
+.destaque{
+    background-color: #8ABABF;
+}
+
+.topo{
+    margin-top: 11%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.icone{
+    width: 40%;
+}
+
+.destaque{
+    background-color: #8ABABF;
+}
+
+.tamanho{
+    font-size: 25px;
+}
+
+.colunas{
+    float: left;
+    padding: 0 5%;
+    position: relative; 
+    text-align: center;
+    width: 40%;   
+}
+
+.colunas4{
+    float: left;
+    padding: 0 5%;
+    position: relative; 
+    text-align: center;
+    width: 15%;
+}
+
+.colunas3{
+    float: left;
+    padding: 0 2%;
+    position: relative; 
+    text-align: center;
+    width: 29%;
+}
+
+.colunas2{
+    float: left;
+    padding: 0 5%;
+    position: relative; 
+    text-align: center;
+    width: 40%;
+}
+
+.espaçotopo{
+    padding-top: 5%;
+}
+
+#eu{
+    width: 80%;
+    padding-top: -5%;
+}
+
+.footer{
+    float: left;
+    padding: 2% 5% 0 5%;
+    position: relative; 
+    text-align: center;
+    width: 40%;
+    height: 120px;
+    background-color: #0D688C;
+}
+
+.borda{
+    width: 100%;
+}
+
+#pesca{
+    height: 700px;
+}
+}
