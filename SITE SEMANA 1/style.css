@@ -1,0 +1,27 @@
+body{
+    background-image: url(original.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+    background-size: 1370px;
+}
+#acao{ 
+    color: black;
+    border: 1px black solid;
+    padding: 10px;
+    text-decoration: none;
+}
+#caixa{
+    text-align: center;
+    color: black;
+    width: 700px;
+    border: 1px;
+    margin-top: 260px;
+    margin-left: 70px;
+    font-family:'Rowdies', cursive;
+}
+
+img{
+    width: 2px;
+    height: 50px;
+}
