@@ -3,13 +3,15 @@ html,body{
     font-family:'Rowdies', cursive;
 }
 
-
+.fontetitulo{
+    font-family: 'Lemonada', cursive;
+}
 
 
 /** INICIO CABEÇALHO**/
 header{
     background-color: #8ABABF;
-    height: 60px;
+    height: 71px;
     width: 100%;
     position: fixed;
     z-index: 10;
@@ -38,10 +40,10 @@ li:hover{
 }
 
 #barquinho{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 8px;
     position: absolute;
 
 }
@@ -63,27 +65,28 @@ li:hover{
     letter-spacing: 3px;
     text-shadow: black;
     padding-top: 20%;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 0.6; 
     line-height: 1;   
-}
+    }
 
 #subtitulo{
     color: black;
     font-weight: 100;
+    font-size: 25px;
     margin-left: 25%;
     margin-right: 25%;
-    padding-top: 20px;
+    padding-top: 7px;
     padding-bottom: -1px;
     border-top: 3px black solid;
-}
+    }
 
 #acao{ 
     color: black;
     background-color:#8ABABF ;
     border: 2px black solid;
-    border-radius: 20px;
-    padding: 7px;
+    border-radius: 40px;
+    padding: 3px 10px;
     font-size: 17px;
     text-decoration: none;
 }
@@ -121,7 +124,11 @@ section{
 }
 
 .tamanho{
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.tamh4{
+    font-size: 20px;
 }
 
 
@@ -214,13 +221,6 @@ footer{
         text-align: center;
     }
 
-    /**#logodiv{
-        width: 100%;
-        position: relative;
-        text-align: center;
-        margin: 0 auto;
-        transform: translateX(-80%);
-    }**/
 
     #barquinho{
         margin: 1% 0 1% 0;
